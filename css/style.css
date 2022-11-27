@@ -240,7 +240,7 @@ a:focus {
 }
 
 .navbar-default .navbar-nav > li a:hover {
-  color: #fa6400 !important;
+  color: #979797 !important;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -257,7 +257,7 @@ a:focus {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #ffffff;
+  color: #ff8533;
   background-color: transparent;
 }
 
@@ -382,8 +382,6 @@ a:focus {
 -----------------------------------------*/
 
 #gallery span {
-  display: block;
-  padding-bottom: 32px;
 }
 
 #gallery .col-md-6 {
@@ -798,4 +796,93 @@ footer .footer-copyright {
 
 .my-float {
   margin-top: 16px;
+}
+
+/* portfolio */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clientes {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 40px auto;
+}
+
+.clientes ul {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.clientes ul li {
+  text-decoration: solid;
+  display: inline-block;
+  list-style: none;
+  padding: 12px 20px;
+  margin: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.clientes ul li:hover {
+  color: rgb(0, 0, 0);
+  font-size: 14.2px;
+}
+
+.clientes ul li.active {
+  text-decoration: solid;
+  color: rgb(255, 115, 0);
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  overflow: hidden;
+  border-radius: 50x;
+  flex-wrap: wrap;
+  float: left;
+}
+
+.product .itemBox {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  display: block;
+}
+
+.product .itemBox.hide {
+  display: none;
+  display: block;
+}
+
+.product .itemBox.active {
+  display: block;
+}
+
+.product .itemBox img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.product .itemBox {
+  vertical-align: bottom;
 }
