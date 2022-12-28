@@ -857,6 +857,10 @@ footer .footer-copyright {
   float: left;
 }
 
+.product .itemBox:hover{
+
+}
+
 .product .itemBox {
   position: relative;
   width: 200px;
