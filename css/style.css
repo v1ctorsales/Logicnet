@@ -125,7 +125,7 @@ a:focus {
 .main-gallery,
 .main-clientes,
 .main-contact {
-  height: 65vh;
+  height: 40vh;
 }
 
 .overlay {
@@ -320,7 +320,7 @@ a:focus {
 }
 
 .main-contact {
-  background: url("https://royalmed.ge/wp-content/uploads/2020/01/5a8cad5b52588600018808f2_images_backgrounds_Bild_6.jpg")
+  background: url("https://as1.ftcdn.net/v2/jpg/02/06/92/58/1000_F_206925823_SgmybBfJWW2pnWvywT0QGOZBfGpkUg2m.jpg")
     no-repeat;
 }
 
@@ -900,7 +900,7 @@ footer .footer-copyright {
   display: inline-block;
   width: 100%;
   height: 100%;
-  transition: all .5s ease 0s;
+  transition: all .3s ease 0s;
 }
 .our-team:hover .pic{
   background: #ff8533;
